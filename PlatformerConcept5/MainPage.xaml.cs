@@ -45,6 +45,7 @@ public partial class MainPage : ContentPage
         gridReady = true;
         score = 0;
         level = 1;
+        Start_Button.Text = "Play!";
     }
 
     async public void Fill_Grid(bool start) //fill grid or reset grid based on start
